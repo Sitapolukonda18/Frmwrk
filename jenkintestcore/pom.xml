@@ -65,12 +65,7 @@
   <configuration>
     <source>1.8</source>
     <target>1.8</target>
-    <compilerArgs>
-      
-      <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
-      <arg>--add-opens</arg>
-      <arg>jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>
-    </compilerArgs>
+     
     <annotationProcessorPaths>
       <path>
         <groupId>org.projectlombok</groupId>
